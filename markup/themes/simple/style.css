@@ -1,0 +1,26 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif
+}
+
+img {
+    width: auto;
+    height: 50px;
+    text-align: center
+}
+
+main {
+    display: block
+}
+
+figure {
+    text-align: center
+}
+header {
+    text-align: center
+}
+
+footer {
+    text-align: center
+}

@@ -1,0 +1,21 @@
+{
+    "name": "ovalves/manual-maker",
+    "type": "project",
+    "description": "A Simple manual maker",
+    "license": "MIT",
+    "authors": [{
+        "name": "Vinicius Alves",
+        "email": "vinicius_o.a@live.com"
+    }],
+    "keywords": [],
+    "require": {
+        "symfony/yaml": "5.3",
+        "mpdf/mpdf": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markup\\": "src/Markup"
+        }
+    },
+    "minimum-stability": "dev"
+}

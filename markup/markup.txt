@@ -1,0 +1,112 @@
+(page:theme simple)
+(page:title Page Title)
+(page:lang pt-br)
+(page:filename output-filename.pdf)
+
+(header
+    (image elephant.png Image Alt)
+)
+
+(footer
+    {(cy) - (link https://ovalves.github.io Vinicius Alves)}
+)
+
+(main
+
+Markup
+======
+
+Simple markup language parsed at run-time in the browser
+--------------------------------------------------------
+(cy) (xlink https://ovalves.github.io Ovalves.)
+
+
+This is the first sentence of the first paragraph.
+This is the second sentence of the first paragraph.
+
+This is the second paragraph.  It also has two
+sentences but the underlying markup
+is written a little differently.
+
+Unordered list
+--------------
+
+    - unordered list item
+    - unordered list item
+
+Ordered list
+------------
+
+    # ordered list item 1
+    # ordered list item 2
+    # ordered list item 3
+
+Image
+-----
+(image elephant.png Image Alt)
+
+
+Figure
+-----
+
+(figure elephant.png Image Alt)
+
+
+Links
+-----
+(p (link https://ovalves.github.io Click to get Markup!))
+
+(xlink https://ovalves.github.io Click to get Markup in a separate tab!)
+
+Styles
+------
+**This is emphasized text** and __This is underlined text__
+
+Symbols
+------
+    - (tm)
+    - (r)
+    - (c)
+    - (cy)
+    - (cm A1 Widgets Ltd.)
+
+Block quote
+-----------
+    "
+    To be, or not to be.  That is the question!
+
+    Whether 'tis nobler to suffer the slings and arrows of outrageous fortune,
+    or to whatever ...
+    "
+
+
+Code
+-----
+Some {inline code} versus ...
+
+{
+    // ... this, which is a block of code.
+    var x = 1;
+    var y = 9;
+}
+
+Dashes
+-----
+
+Two hyphens make an n-dash, like "--"
+
+Three hyphens make an m-dash, like "---"
+
+Four dashes makes a horizontal rule like this ...
+----
+
+Five or more dashes makes an h2 heading out of the preceding line.
+-----
+
+Five or more equals signs makes an h1 heading out of the preceding line.
+=====
+
+)
+
+
+)
